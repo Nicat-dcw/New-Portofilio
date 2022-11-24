@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
+    
+}
+* {
+  box-sizing: border-box;
+}
+.customSpo {
+     display: flex;
+    align-items: center; 
+padding: -55px;
+
+    gap: 5rem;
+}
+@media (prefers-color-scheme: dark) {
+body {
+     background-color: linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
+}
+}
